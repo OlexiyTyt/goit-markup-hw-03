@@ -73,6 +73,9 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+
   width: 1200px;
   outline: 2px solid tomato;
 }
@@ -118,14 +121,23 @@ body {
 }
 
 /* section */
+
 .section {
-  padding-top: 26px;
-  padding-bottom: 24;
+  margin-bottom: 94px;
+}
+
+.non-margin {
+  margin-bottom: 0;
+}
+
+.section-benefits {
+  margin-top: 119px;
+  margin-bottom: 94px;
 }
 
 .section-title {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 50px;
   font-weight: var(--font-weight700);
   font-size: 36px;
   line-height: 1.16px;
@@ -135,13 +147,15 @@ body {
 /* benefits */
 
 .benefits .title {
-  margin-top: 0;
-  margin-bottom: 10;
   font-weight: var(--font-weight700);
   line-height: 1.14;
   text-transform: uppercase;
 }
 
+.title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
 .benefits .text {
   color: var(--secondary-text-color);
   line-height: 1.71;
@@ -151,6 +165,9 @@ body {
 
 /* coworkers list */
 .section-coworkers {
+  margin-bottom: 94px;
+  padding-bottom: 94px;
+  padding-top: 94px;
   background-color: var(--secondary-background-color);
 }
 
@@ -162,10 +179,16 @@ body {
 }
 
 .coworkers .text {
+  margin-top: 0;
+  margin-bottom: 30;
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+}
+
+.image {
+  margin-bottom: 30px;
 }
 
 /* button */
@@ -193,6 +216,7 @@ body {
   border-radius: 4px;
   padding: 6px 22px;
   min-width: 73px;
+  margin-bottom: 50px;
 
   font-family: inherit;
   font-weight: var(--font-weight500);
@@ -213,6 +237,7 @@ body {
   border-radius: 4px;
   padding: 6px 22px;
   min-width: 73px;
+  margin-bottom: 50px;
 
   font-family: inherit;
   font-weight: var(--font-weight500);
@@ -267,6 +292,8 @@ body {
 
 /* work-list */
 .work-title {
+  margin-top: 0;
+  margin-bottom: 4px;
   font-weight: var(--font-weight700);
   font-size: 18px;
   line-height: 2;
@@ -274,6 +301,8 @@ body {
 }
 
 .work p {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--secondary-text-color);
 
   font-size: 16px;
