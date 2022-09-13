@@ -45,17 +45,9 @@ body {
   font-size: 26px;
   line-height: 1.19;
 }
-.margined {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  padding-right: 15px;
-  padding-left: 15px;
-
-  width: 1230px;
-}
 
 .footer-logo {
+  display: block;
   color: var(--primary-white-color);
 
   font-family: Raleway, sans-serif;
@@ -131,9 +123,7 @@ body {
 }
 
 .address .item,
-.site-nav .link,
-.link-current:hover,
-.link-current:focus {
+.site-nav .link {
   color: var(--primary-text-color);
 }
 
@@ -163,10 +153,17 @@ body {
 .hero {
   background-color: var(--footer-background-color);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30;
   margin-top: 0;
+  width: 696px;
+  text-align: center;
+
   color: var(--primary-white-color);
   font-weight: var(--font-weight900);
   font-size: 44px;
@@ -196,7 +193,7 @@ body {
   margin-bottom: 50px;
   font-weight: var(--font-weight700);
   font-size: 36px;
-  line-height: 1.16px;
+  line-height: 1.16;
   text-align: center;
 }
 
@@ -314,7 +311,6 @@ body {
   border-radius: 4px;
   padding: 6px 22px;
   min-width: 73px;
-  margin-bottom: 50px;
 
   font-family: inherit;
   font-weight: var(--font-weight500);
@@ -335,7 +331,6 @@ body {
   border-radius: 4px;
   padding: 6px 22px;
   min-width: 73px;
-  margin-bottom: 50px;
 
   font-family: inherit;
   font-weight: var(--font-weight500);
@@ -393,8 +388,8 @@ body {
   font-size: 16px;
   line-height: 1.62;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 .filter .item:not(:last-child) {
   margin-right: 8px;
@@ -402,12 +397,7 @@ body {
 
 .card-list {
   padding-top: 94px;
-  padding-bottom: 50px;
-}
-
-.current-button {
-  margin-left: 297px;
-  margin-bottom: 50px;
+  padding-bottom: 94px;
 }
 
 /* work-list */
